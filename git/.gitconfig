@@ -1,0 +1,16 @@
+[user]
+	email = 44313736+Dewalade1@users.noreply.github.com
+	name = dewa-mac
+
+[core]
+  editor = code --wait
+[diff]
+  tool = default-difftool
+[difftool "default-difftool"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[http]
+	postBuffer = 524288000
+[ssh]
+	postBuffer = 524288000
+[init]
+	defaultBranch = main

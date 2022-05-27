@@ -1,0 +1,74 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # Jeff Widman's Brewfile\
+# Install via Homebrew:\
+#   `brew bundle --file=~/.dotfiles/homebrew/.Brewfile`\
+\
+# Generally life is simplest to not update macOS default SSH\
+# Because making a non-Apple SSH work with the macOS Keychain can be a pain\
+# brew 'ssh'\
+\
+\
+# Install all the things:\
+brew 'zsh'\
+brew 'ssh-copy-id'\
+brew 'fasd' # Fast directory switcher\
+brew 'git'\
+brew 'gibo' # quickly access Github's git ignore templates\
+brew 'less'\
+brew 'lesspipe' # pre-processes various file formats so they can be paged via Less\
+brew 'ctags'\
+brew 'stow'\
+brew 'tmux'\
+brew 'htop'\
+brew 'iftop'\
+brew 'ag' # Faster grep\
+brew 'ncdu' # ncurses-based directory/file size viewer\
+brew 'tree'\
+\
+# Kubernetes\
+brew 'k9s'\
+\
+# Databases\
+brew 'sqlite'\
+\
+# Python\
+brew 'python'\
+\
+# Ruby\
+# Use [RVM](http://rvm.io/) instead of Homebrew.\
+\
+# # Java\
+# # VisualVM is an alternative to Jconsole for JMX debugging\
+# brew cask install java  # required for visualvm\
+# brew cask install visualvm\
+\
+# Node\
+# Use [`nvm`](https://github.com/creationix/nvm) instead of Homebrew.\
+# Install manually using git clone rather than the install script:\
+# https://github.com/creationix/nvm#manual-install\
+\
+# Neovim\
+# I prefer over Vim for the simple reason they accepted one of my patches ;)\
+brew 'neovim'\
+\
+# Other linters\
+brew 'shellcheck'\
+brew 'yamllint'\
+\
+\
+# Quicklook plugins\
+# See https://github.com/sindresorhus/quick-look-plugins\
+tap 'homebrew/cask'\
+cask 'qlstephen'\
+cask 'apparency'\
+# Use `syntax-highlight` instead of qlcolorcode and quicklook-json\
+# Note: Follow the install instructions on their website for authorizing with MacOS security\
+cask 'syntax-highlight'\
+# for betterzipql, install it manually as we don't want the full-blown betterzip app\
+# https://github.com/sindresorhus/quick-look-plugins#betterzipql}

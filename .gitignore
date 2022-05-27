@@ -9,3 +9,12 @@
 
 // Caches
 *cache*
+
+
+// Artifacts
+*artifacts*
+
+
+// VSCode
+.history/
+.vscode/

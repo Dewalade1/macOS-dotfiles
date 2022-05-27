@@ -1,0 +1,2142 @@
+{
+  "{\"filename\":\"/Users/mac/devs/wonder/packages/client/gulpfile.babel.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/mac/devs/wonder/packages/client\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0:development": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "gulp",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "gulp"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "gulp-nodemon",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "nodemon"
+              }
+            ]
+          },
+          {
+            "source": "./gulp/buildCSS",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "buildCSS"
+              }
+            ]
+          },
+          {
+            "source": "./gulp/buildJS",
+            "imported": [
+              "frontendBuildProd",
+              "frontendWatch"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "frontendBuildProd",
+                "local": "frontendBuildProd"
+              },
+              {
+                "kind": "named",
+                "imported": "frontendWatch",
+                "local": "frontendWatch"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/mac/devs/wonder/packages/client/gulpfile.babel.js",
+      "filenameRelative": "/Users/mac/devs/wonder/packages/client/gulpfile.babel.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "gulpfile.babel.js",
+      "sourceFileName": "gulpfile.babel.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/mac/devs/wonder/packages/client",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "gulpfile.babel"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _gulp = require('gulp');\n\nvar _gulp2 = _interopRequireDefault(_gulp);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _gulpNodemon = require('gulp-nodemon');\n\nvar _gulpNodemon2 = _interopRequireDefault(_gulpNodemon);\n\nvar _buildCSS = require('./gulp/buildCSS');\n\nvar _buildCSS2 = _interopRequireDefault(_buildCSS);\n\nvar _buildJS = require('./gulp/buildJS');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar watchCss = function watchCss(done) {\n  _gulp2.default.watch('./app/**/*.styl', (0, _buildCSS2.default)(false));\n  done();\n};\n\n_gulp2.default.task('dev', _gulp2.default.series((0, _buildCSS2.default)(false), _gulp2.default.parallel([watchCss, _buildJS.frontendWatch, function (done) {\n  return (0, _gulpNodemon2.default)({\n    execMap: {\n      js: 'node'\n    },\n    script: _path2.default.join(__dirname, 'server.js'),\n    watch: ['./dist'],\n    done: done\n  }).on('restart', function () {\n    console.log('Restarted!');\n  });\n}])));\n\n_gulp2.default.task('build', _gulp2.default.series([_buildJS.frontendBuildProd, (0, _buildCSS2.default)(true)]));\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImd1bHBmaWxlLmJhYmVsLmpzIl0sIm5hbWVzIjpbIndhdGNoQ3NzIiwiZG9uZSIsIndhdGNoIiwidGFzayIsInNlcmllcyIsInBhcmFsbGVsIiwiZXhlY01hcCIsImpzIiwic2NyaXB0Iiwiam9pbiIsIl9fZGlybmFtZSIsIm9uIiwiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFFQTs7OztBQUNBOzs7O0FBRUEsSUFBTUEsV0FBVyxTQUFYQSxRQUFXLENBQUNDLElBQUQsRUFBVTtBQUN6QixpQkFBS0MsS0FBTCxDQUFXLGlCQUFYLEVBQThCLHdCQUFTLEtBQVQsQ0FBOUI7QUFDQUQ7QUFDRCxDQUhEOztBQUtBLGVBQUtFLElBQUwsQ0FBVSxLQUFWLEVBQ0UsZUFBS0MsTUFBTCxDQUNFLHdCQUFTLEtBQVQsQ0FERixFQUVFLGVBQUtDLFFBQUwsQ0FBYyxDQUNaTCxRQURZLDBCQUdaLFVBQUNDLElBQUQ7QUFBQSxTQUFVLDJCQUFRO0FBQ2hCSyxhQUFTO0FBQ1BDLFVBQUk7QUFERyxLQURPO0FBSWhCQyxZQUFRLGVBQUtDLElBQUwsQ0FBVUMsU0FBVixFQUFxQixXQUFyQixDQUpRO0FBS2hCUixXQUFPLENBQUMsUUFBRCxDQUxTO0FBTWhCRDtBQU5nQixHQUFSLEVBT1BVLEVBUE8sQ0FPSixTQVBJLEVBT08sWUFBTTtBQUFFQyxZQUFRQyxHQUFSLENBQVksWUFBWjtBQUE0QixHQVAzQyxDQUFWO0FBQUEsQ0FIWSxDQUFkLENBRkYsQ0FERjs7QUFrQkEsZUFBS1YsSUFBTCxDQUFVLE9BQVYsRUFBbUIsZUFBS0MsTUFBTCxDQUFZLDZCQUFvQix3QkFBUyxJQUFULENBQXBCLENBQVosQ0FBbkIiLCJmaWxlIjoiZ3VscGZpbGUuYmFiZWwuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL21hYy9kZXZzL3dvbmRlci9wYWNrYWdlcy9jbGllbnQiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZ3VscCBmcm9tICdndWxwJztcbmltcG9ydCBwYXRoIGZyb20gJ3BhdGgnO1xuaW1wb3J0IG5vZGVtb24gZnJvbSAnZ3VscC1ub2RlbW9uJztcblxuaW1wb3J0IGJ1aWxkQ1NTIGZyb20gJy4vZ3VscC9idWlsZENTUyc7XG5pbXBvcnQgeyBmcm9udGVuZEJ1aWxkUHJvZCwgZnJvbnRlbmRXYXRjaCB9IGZyb20gJy4vZ3VscC9idWlsZEpTJztcblxuY29uc3Qgd2F0Y2hDc3MgPSAoZG9uZSkgPT4ge1xuICBndWxwLndhdGNoKCcuL2FwcC8qKi8qLnN0eWwnLCBidWlsZENTUyhmYWxzZSkpO1xuICBkb25lKCk7XG59O1xuXG5ndWxwLnRhc2soJ2RldicsXG4gIGd1bHAuc2VyaWVzKFxuICAgIGJ1aWxkQ1NTKGZhbHNlKSxcbiAgICBndWxwLnBhcmFsbGVsKFtcbiAgICAgIHdhdGNoQ3NzLFxuICAgICAgZnJvbnRlbmRXYXRjaCxcbiAgICAgIChkb25lKSA9PiBub2RlbW9uKHtcbiAgICAgICAgZXhlY01hcDoge1xuICAgICAgICAgIGpzOiAnbm9kZSdcbiAgICAgICAgfSxcbiAgICAgICAgc2NyaXB0OiBwYXRoLmpvaW4oX19kaXJuYW1lLCAnc2VydmVyLmpzJyksXG4gICAgICAgIHdhdGNoOiBbJy4vZGlzdCddLFxuICAgICAgICBkb25lLFxuICAgICAgfSkub24oJ3Jlc3RhcnQnLCAoKSA9PiB7IGNvbnNvbGUubG9nKCdSZXN0YXJ0ZWQhJyk7IH0pXG4gICAgXSksXG4gIClcbik7XG5cbmd1bHAudGFzaygnYnVpbGQnLCBndWxwLnNlcmllcyhbZnJvbnRlbmRCdWlsZFByb2QsIGJ1aWxkQ1NTKHRydWUpXSkpO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "gulpfile.babel.js"
+      ],
+      "names": [
+        "watchCss",
+        "done",
+        "watch",
+        "task",
+        "series",
+        "parallel",
+        "execMap",
+        "js",
+        "script",
+        "join",
+        "__dirname",
+        "on",
+        "console",
+        "log"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AAEA;;;;AACA;;;;AAEA,IAAMA,WAAW,SAAXA,QAAW,CAACC,IAAD,EAAU;AACzB,iBAAKC,KAAL,CAAW,iBAAX,EAA8B,wBAAS,KAAT,CAA9B;AACAD;AACD,CAHD;;AAKA,eAAKE,IAAL,CAAU,KAAV,EACE,eAAKC,MAAL,CACE,wBAAS,KAAT,CADF,EAEE,eAAKC,QAAL,CAAc,CACZL,QADY,0BAGZ,UAACC,IAAD;AAAA,SAAU,2BAAQ;AAChBK,aAAS;AACPC,UAAI;AADG,KADO;AAIhBC,YAAQ,eAAKC,IAAL,CAAUC,SAAV,EAAqB,WAArB,CAJQ;AAKhBR,WAAO,CAAC,QAAD,CALS;AAMhBD;AANgB,GAAR,EAOPU,EAPO,CAOJ,SAPI,EAOO,YAAM;AAAEC,YAAQC,GAAR,CAAY,YAAZ;AAA4B,GAP3C,CAAV;AAAA,CAHY,CAAd,CAFF,CADF;;AAkBA,eAAKV,IAAL,CAAU,OAAV,EAAmB,eAAKC,MAAL,CAAY,6BAAoB,wBAAS,IAAT,CAApB,CAAZ,CAAnB",
+      "file": "gulpfile.babel.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client",
+      "sourcesContent": [
+        "import gulp from 'gulp';\nimport path from 'path';\nimport nodemon from 'gulp-nodemon';\n\nimport buildCSS from './gulp/buildCSS';\nimport { frontendBuildProd, frontendWatch } from './gulp/buildJS';\n\nconst watchCss = (done) => {\n  gulp.watch('./app/**/*.styl', buildCSS(false));\n  done();\n};\n\ngulp.task('dev',\n  gulp.series(\n    buildCSS(false),\n    gulp.parallel([\n      watchCss,\n      frontendWatch,\n      (done) => nodemon({\n        execMap: {\n          js: 'node'\n        },\n        script: path.join(__dirname, 'server.js'),\n        watch: ['./dist'],\n        done,\n      }).on('restart', () => { console.log('Restarted!'); })\n    ]),\n  )\n);\n\ngulp.task('build', gulp.series([frontendBuildProd, buildCSS(true)]));\n"
+      ]
+    },
+    "mtime": 1642440543543
+  },
+  "{\"filename\":\"/Users/mac/devs/wonder/packages/client/gulp/buildCSS.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/mac/devs/wonder/packages/client/gulp\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0:development": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "fs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "fs"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "nib",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "nib"
+              }
+            ]
+          },
+          {
+            "source": "gulp",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "gulp"
+              }
+            ]
+          },
+          {
+            "source": "gulp-stylus",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "stylus"
+              }
+            ]
+          },
+          {
+            "source": "./helpers/walkDirectorySync",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "walkDirectorySync"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/mac/devs/wonder/packages/client/gulp/buildCSS.js",
+      "filenameRelative": "/Users/mac/devs/wonder/packages/client/gulp/buildCSS.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "buildCSS.js",
+      "sourceFileName": "buildCSS.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client/gulp",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/mac/devs/wonder/packages/client/gulp",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "buildCSS"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _keys = require('babel-runtime/core-js/object/keys');\n\nvar _keys2 = _interopRequireDefault(_keys);\n\nvar _fs = require('fs');\n\nvar _fs2 = _interopRequireDefault(_fs);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _nib = require('nib');\n\nvar _nib2 = _interopRequireDefault(_nib);\n\nvar _gulp = require('gulp');\n\nvar _gulp2 = _interopRequireDefault(_gulp);\n\nvar _gulpStylus = require('gulp-stylus');\n\nvar _gulpStylus2 = _interopRequireDefault(_gulpStylus);\n\nvar _walkDirectorySync = require('./helpers/walkDirectorySync');\n\nvar _walkDirectorySync2 = _interopRequireDefault(_walkDirectorySync);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar indexFileComparator = function indexFileComparator(p) {\n  return _path2.default.basename(p) === 'index.styl';\n};\nvar stylusFileComparator = function stylusFileComparator(p) {\n  return _path2.default.extname(p) === '.styl';\n};\n\n/**\n * The directories we want to search\n * Each directory can have a different comparator\n *\n * @type {Object}\n */\nvar pathComparators = {\n  './app/styles': indexFileComparator,\n  './app/pages': stylusFileComparator,\n  './app/components': stylusFileComparator,\n  './app/modules': stylusFileComparator\n};\n\nexports.default = function (isProduction) {\n  return function () {\n    // we use the hash created for the js file as cache-buster for the stylesheet\n    var hash = isProduction ? _fs2.default.readFileSync(_path2.default.join(process.cwd(), 'hash.txt')) : 'dev';\n    var destFile = 'styles.' + hash + '.styl';\n    var destFolder = './';\n    var destPath = _path2.default.join(destFolder, destFile);\n\n    var styleSheetStr = ['nib'].concat((0, _keys2.default)(pathComparators).reduce(function (carry, path) {\n      return (0, _walkDirectorySync2.default)(path, carry, pathComparators[path]);\n    }, [])).reduce(function (carry, path) {\n      return carry + ' @require \\'' + path + '\\'\\n';\n    }, '');\n\n    _fs2.default.writeFileSync(destPath, styleSheetStr);\n    console.log('compiling:', destPath);\n\n    return _gulp2.default.src(destPath).pipe((0, _gulpStylus2.default)({\n      'include css': true,\n      'hoist atrules': true,\n      compress: true,\n      use: [(0, _nib2.default)()]\n    })).pipe(_gulp2.default.dest('./dist/css')).on('end', function () {\n      try {\n        _fs2.default.unlinkSync(destPath);\n      } catch (e) {}\n    });\n  };\n};\n\nmodule.exports = exports['default'];\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJ1aWxkQ1NTLmpzIl0sIm5hbWVzIjpbImluZGV4RmlsZUNvbXBhcmF0b3IiLCJwIiwiYmFzZW5hbWUiLCJzdHlsdXNGaWxlQ29tcGFyYXRvciIsImV4dG5hbWUiLCJwYXRoQ29tcGFyYXRvcnMiLCJpc1Byb2R1Y3Rpb24iLCJoYXNoIiwicmVhZEZpbGVTeW5jIiwiam9pbiIsInByb2Nlc3MiLCJjd2QiLCJkZXN0RmlsZSIsImRlc3RGb2xkZXIiLCJkZXN0UGF0aCIsInN0eWxlU2hlZXRTdHIiLCJjb25jYXQiLCJyZWR1Y2UiLCJjYXJyeSIsInBhdGgiLCJ3cml0ZUZpbGVTeW5jIiwiY29uc29sZSIsImxvZyIsInNyYyIsInBpcGUiLCJjb21wcmVzcyIsInVzZSIsImRlc3QiLCJvbiIsInVubGlua1N5bmMiLCJlIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQUE7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUVBOzs7Ozs7QUFFQSxJQUFNQSxzQkFBc0IsU0FBdEJBLG1CQUFzQixDQUFDQyxDQUFEO0FBQUEsU0FBTyxlQUFLQyxRQUFMLENBQWNELENBQWQsTUFBcUIsWUFBNUI7QUFBQSxDQUE1QjtBQUNBLElBQU1FLHVCQUF1QixTQUF2QkEsb0JBQXVCLENBQUNGLENBQUQ7QUFBQSxTQUFPLGVBQUtHLE9BQUwsQ0FBYUgsQ0FBYixNQUFvQixPQUEzQjtBQUFBLENBQTdCOztBQUVBOzs7Ozs7QUFNQSxJQUFNSSxrQkFBa0I7QUFDdEIsa0JBQWdCTCxtQkFETTtBQUV0QixpQkFBZUcsb0JBRk87QUFHdEIsc0JBQW9CQSxvQkFIRTtBQUl0QixtQkFBaUJBO0FBSkssQ0FBeEI7O2tCQU9lLFVBQUNHLFlBQUQ7QUFBQSxTQUFrQixZQUFNO0FBQ3JDO0FBQ0EsUUFBTUMsT0FBT0QsZUFDWCxhQUFHRSxZQUFILENBQWdCLGVBQUtDLElBQUwsQ0FBVUMsUUFBUUMsR0FBUixFQUFWLEVBQXlCLFVBQXpCLENBQWhCLENBRFcsR0FFVCxLQUZKO0FBR0EsUUFBTUMsdUJBQXFCTCxJQUFyQixVQUFOO0FBQ0EsUUFBTU0sYUFBYSxJQUFuQjtBQUNBLFFBQU1DLFdBQVcsZUFBS0wsSUFBTCxDQUFVSSxVQUFWLEVBQXNCRCxRQUF0QixDQUFqQjs7QUFFQSxRQUFNRyxnQkFBZ0IsQ0FBQyxLQUFELEVBQVFDLE1BQVIsQ0FDbEIsb0JBQVlYLGVBQVosRUFDR1ksTUFESCxDQUNVLFVBQUNDLEtBQUQsRUFBUUMsSUFBUjtBQUFBLGFBQWlCLGlDQUFrQkEsSUFBbEIsRUFBd0JELEtBQXhCLEVBQStCYixnQkFBZ0JjLElBQWhCLENBQS9CLENBQWpCO0FBQUEsS0FEVixFQUNrRixFQURsRixDQURrQixFQUluQkYsTUFKbUIsQ0FJWixVQUFDQyxLQUFELEVBQVFDLElBQVI7QUFBQSxhQUFvQkQsS0FBcEIsb0JBQXVDQyxJQUF2QztBQUFBLEtBSlksRUFJc0MsRUFKdEMsQ0FBdEI7O0FBTUEsaUJBQUdDLGFBQUgsQ0FBaUJOLFFBQWpCLEVBQTJCQyxhQUEzQjtBQUNBTSxZQUFRQyxHQUFSLENBQVksWUFBWixFQUEwQlIsUUFBMUI7O0FBRUEsV0FBTyxlQUFLUyxHQUFMLENBQVNULFFBQVQsRUFDSlUsSUFESSxDQUNDLDBCQUFPO0FBQ1gscUJBQWUsSUFESjtBQUVYLHVCQUFpQixJQUZOO0FBR1hDLGdCQUFVLElBSEM7QUFJWEMsV0FBSyxDQUFDLG9CQUFEO0FBSk0sS0FBUCxDQURELEVBT0pGLElBUEksQ0FPQyxlQUFLRyxJQUFMLENBQVUsWUFBVixDQVBELEVBUUpDLEVBUkksQ0FRRCxLQVJDLEVBUU0sWUFBTTtBQUNmLFVBQUk7QUFBRSxxQkFBR0MsVUFBSCxDQUFjZixRQUFkO0FBQTBCLE9BQWhDLENBQWlDLE9BQU9nQixDQUFQLEVBQVUsQ0FBRTtBQUM5QyxLQVZJLENBQVA7QUFXRCxHQTdCYztBQUFBLEMiLCJmaWxlIjoiYnVpbGRDU1MuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL21hYy9kZXZzL3dvbmRlci9wYWNrYWdlcy9jbGllbnQvZ3VscCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBmcyBmcm9tICdmcyc7XG5pbXBvcnQgcGF0aCBmcm9tICdwYXRoJztcbmltcG9ydCBuaWIgZnJvbSAnbmliJztcbmltcG9ydCBndWxwIGZyb20gJ2d1bHAnO1xuaW1wb3J0IHN0eWx1cyBmcm9tICdndWxwLXN0eWx1cyc7XG5cbmltcG9ydCB3YWxrRGlyZWN0b3J5U3luYyBmcm9tICcuL2hlbHBlcnMvd2Fsa0RpcmVjdG9yeVN5bmMnO1xuXG5jb25zdCBpbmRleEZpbGVDb21wYXJhdG9yID0gKHApID0+IHBhdGguYmFzZW5hbWUocCkgPT09ICdpbmRleC5zdHlsJztcbmNvbnN0IHN0eWx1c0ZpbGVDb21wYXJhdG9yID0gKHApID0+IHBhdGguZXh0bmFtZShwKSA9PT0gJy5zdHlsJztcblxuLyoqXG4gKiBUaGUgZGlyZWN0b3JpZXMgd2Ugd2FudCB0byBzZWFyY2hcbiAqIEVhY2ggZGlyZWN0b3J5IGNhbiBoYXZlIGEgZGlmZmVyZW50IGNvbXBhcmF0b3JcbiAqXG4gKiBAdHlwZSB7T2JqZWN0fVxuICovXG5jb25zdCBwYXRoQ29tcGFyYXRvcnMgPSB7XG4gICcuL2FwcC9zdHlsZXMnOiBpbmRleEZpbGVDb21wYXJhdG9yLFxuICAnLi9hcHAvcGFnZXMnOiBzdHlsdXNGaWxlQ29tcGFyYXRvcixcbiAgJy4vYXBwL2NvbXBvbmVudHMnOiBzdHlsdXNGaWxlQ29tcGFyYXRvcixcbiAgJy4vYXBwL21vZHVsZXMnOiBzdHlsdXNGaWxlQ29tcGFyYXRvcixcbn07XG5cbmV4cG9ydCBkZWZhdWx0IChpc1Byb2R1Y3Rpb24pID0+ICgpID0+IHtcbiAgLy8gd2UgdXNlIHRoZSBoYXNoIGNyZWF0ZWQgZm9yIHRoZSBqcyBmaWxlIGFzIGNhY2hlLWJ1c3RlciBmb3IgdGhlIHN0eWxlc2hlZXRcbiAgY29uc3QgaGFzaCA9IGlzUHJvZHVjdGlvbiA/XG4gICAgZnMucmVhZEZpbGVTeW5jKHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCAnaGFzaC50eHQnKSlcbiAgICA6ICdkZXYnO1xuICBjb25zdCBkZXN0RmlsZSA9IGBzdHlsZXMuJHtoYXNofS5zdHlsYFxuICBjb25zdCBkZXN0Rm9sZGVyID0gJy4vJztcbiAgY29uc3QgZGVzdFBhdGggPSBwYXRoLmpvaW4oZGVzdEZvbGRlciwgZGVzdEZpbGUpO1xuXG4gIGNvbnN0IHN0eWxlU2hlZXRTdHIgPSBbJ25pYiddLmNvbmNhdChcbiAgICAgIE9iamVjdC5rZXlzKHBhdGhDb21wYXJhdG9ycylcbiAgICAgICAgLnJlZHVjZSgoY2FycnksIHBhdGgpID0+IHdhbGtEaXJlY3RvcnlTeW5jKHBhdGgsIGNhcnJ5LCBwYXRoQ29tcGFyYXRvcnNbcGF0aF0pLCBbXSlcbiAgICApXG4gICAgLnJlZHVjZSgoY2FycnksIHBhdGgpID0+IGAke2NhcnJ5fSBAcmVxdWlyZSAnJHtwYXRofSdcXG5gLCAnJylcblxuICBmcy53cml0ZUZpbGVTeW5jKGRlc3RQYXRoLCBzdHlsZVNoZWV0U3RyKTtcbiAgY29uc29sZS5sb2coJ2NvbXBpbGluZzonLCBkZXN0UGF0aCk7XG5cbiAgcmV0dXJuIGd1bHAuc3JjKGRlc3RQYXRoKVxuICAgIC5waXBlKHN0eWx1cyh7XG4gICAgICAnaW5jbHVkZSBjc3MnOiB0cnVlLFxuICAgICAgJ2hvaXN0IGF0cnVsZXMnOiB0cnVlLFxuICAgICAgY29tcHJlc3M6IHRydWUsXG4gICAgICB1c2U6IFtuaWIoKV1cbiAgICB9KSlcbiAgICAucGlwZShndWxwLmRlc3QoJy4vZGlzdC9jc3MnKSlcbiAgICAub24oJ2VuZCcsICgpID0+IHtcbiAgICAgIHRyeSB7IGZzLnVubGlua1N5bmMoZGVzdFBhdGgpOyB9IGNhdGNoIChlKSB7fVxuICAgIH0pO1xufTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "buildCSS.js"
+      ],
+      "names": [
+        "indexFileComparator",
+        "p",
+        "basename",
+        "stylusFileComparator",
+        "extname",
+        "pathComparators",
+        "isProduction",
+        "hash",
+        "readFileSync",
+        "join",
+        "process",
+        "cwd",
+        "destFile",
+        "destFolder",
+        "destPath",
+        "styleSheetStr",
+        "concat",
+        "reduce",
+        "carry",
+        "path",
+        "writeFileSync",
+        "console",
+        "log",
+        "src",
+        "pipe",
+        "compress",
+        "use",
+        "dest",
+        "on",
+        "unlinkSync",
+        "e"
+      ],
+      "mappings": ";;;;;;;;;;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AAEA;;;;;;AAEA,IAAMA,sBAAsB,SAAtBA,mBAAsB,CAACC,CAAD;AAAA,SAAO,eAAKC,QAAL,CAAcD,CAAd,MAAqB,YAA5B;AAAA,CAA5B;AACA,IAAME,uBAAuB,SAAvBA,oBAAuB,CAACF,CAAD;AAAA,SAAO,eAAKG,OAAL,CAAaH,CAAb,MAAoB,OAA3B;AAAA,CAA7B;;AAEA;;;;;;AAMA,IAAMI,kBAAkB;AACtB,kBAAgBL,mBADM;AAEtB,iBAAeG,oBAFO;AAGtB,sBAAoBA,oBAHE;AAItB,mBAAiBA;AAJK,CAAxB;;kBAOe,UAACG,YAAD;AAAA,SAAkB,YAAM;AACrC;AACA,QAAMC,OAAOD,eACX,aAAGE,YAAH,CAAgB,eAAKC,IAAL,CAAUC,QAAQC,GAAR,EAAV,EAAyB,UAAzB,CAAhB,CADW,GAET,KAFJ;AAGA,QAAMC,uBAAqBL,IAArB,UAAN;AACA,QAAMM,aAAa,IAAnB;AACA,QAAMC,WAAW,eAAKL,IAAL,CAAUI,UAAV,EAAsBD,QAAtB,CAAjB;;AAEA,QAAMG,gBAAgB,CAAC,KAAD,EAAQC,MAAR,CAClB,oBAAYX,eAAZ,EACGY,MADH,CACU,UAACC,KAAD,EAAQC,IAAR;AAAA,aAAiB,iCAAkBA,IAAlB,EAAwBD,KAAxB,EAA+Bb,gBAAgBc,IAAhB,CAA/B,CAAjB;AAAA,KADV,EACkF,EADlF,CADkB,EAInBF,MAJmB,CAIZ,UAACC,KAAD,EAAQC,IAAR;AAAA,aAAoBD,KAApB,oBAAuCC,IAAvC;AAAA,KAJY,EAIsC,EAJtC,CAAtB;;AAMA,iBAAGC,aAAH,CAAiBN,QAAjB,EAA2BC,aAA3B;AACAM,YAAQC,GAAR,CAAY,YAAZ,EAA0BR,QAA1B;;AAEA,WAAO,eAAKS,GAAL,CAAST,QAAT,EACJU,IADI,CACC,0BAAO;AACX,qBAAe,IADJ;AAEX,uBAAiB,IAFN;AAGXC,gBAAU,IAHC;AAIXC,WAAK,CAAC,oBAAD;AAJM,KAAP,CADD,EAOJF,IAPI,CAOC,eAAKG,IAAL,CAAU,YAAV,CAPD,EAQJC,EARI,CAQD,KARC,EAQM,YAAM;AACf,UAAI;AAAE,qBAAGC,UAAH,CAAcf,QAAd;AAA0B,OAAhC,CAAiC,OAAOgB,CAAP,EAAU,CAAE;AAC9C,KAVI,CAAP;AAWD,GA7Bc;AAAA,C",
+      "file": "buildCSS.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client/gulp",
+      "sourcesContent": [
+        "import fs from 'fs';\nimport path from 'path';\nimport nib from 'nib';\nimport gulp from 'gulp';\nimport stylus from 'gulp-stylus';\n\nimport walkDirectorySync from './helpers/walkDirectorySync';\n\nconst indexFileComparator = (p) => path.basename(p) === 'index.styl';\nconst stylusFileComparator = (p) => path.extname(p) === '.styl';\n\n/**\n * The directories we want to search\n * Each directory can have a different comparator\n *\n * @type {Object}\n */\nconst pathComparators = {\n  './app/styles': indexFileComparator,\n  './app/pages': stylusFileComparator,\n  './app/components': stylusFileComparator,\n  './app/modules': stylusFileComparator,\n};\n\nexport default (isProduction) => () => {\n  // we use the hash created for the js file as cache-buster for the stylesheet\n  const hash = isProduction ?\n    fs.readFileSync(path.join(process.cwd(), 'hash.txt'))\n    : 'dev';\n  const destFile = `styles.${hash}.styl`\n  const destFolder = './';\n  const destPath = path.join(destFolder, destFile);\n\n  const styleSheetStr = ['nib'].concat(\n      Object.keys(pathComparators)\n        .reduce((carry, path) => walkDirectorySync(path, carry, pathComparators[path]), [])\n    )\n    .reduce((carry, path) => `${carry} @require '${path}'\\n`, '')\n\n  fs.writeFileSync(destPath, styleSheetStr);\n  console.log('compiling:', destPath);\n\n  return gulp.src(destPath)\n    .pipe(stylus({\n      'include css': true,\n      'hoist atrules': true,\n      compress: true,\n      use: [nib()]\n    }))\n    .pipe(gulp.dest('./dist/css'))\n    .on('end', () => {\n      try { fs.unlinkSync(destPath); } catch (e) {}\n    });\n};\n"
+      ]
+    },
+    "mtime": 1642440543543
+  },
+  "{\"filename\":\"/Users/mac/devs/wonder/packages/client/gulp/helpers/walkDirectorySync.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/mac/devs/wonder/packages/client/gulp/helpers\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0:development": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "fs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "fs"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/mac/devs/wonder/packages/client/gulp/helpers/walkDirectorySync.js",
+      "filenameRelative": "/Users/mac/devs/wonder/packages/client/gulp/helpers/walkDirectorySync.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "walkDirectorySync.js",
+      "sourceFileName": "walkDirectorySync.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client/gulp/helpers",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/mac/devs/wonder/packages/client/gulp/helpers",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "walkDirectorySync"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _fs = require('fs');\n\nvar _fs2 = _interopRequireDefault(_fs);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Recursively walks the directory tree starting at `dir`,\n * collecting all filepaths which match `comparator`\n *\n * @param  {string}   dir        The directory to walk\n * @param  {array}    filelist   The file list\n * @param  {function} comparator The comparator\n *\n * @return {array}\n */\nvar walkDirectorySync = function walkDirectorySync(dir) {\n  var filelist = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];\n  var comparator = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : function () {\n    return true;\n  };\n\n  var files = _fs2.default.readdirSync(dir);\n\n  files.forEach(function (file) {\n    var p = _path2.default.join(dir, file);\n    if (_fs2.default.statSync(p).isDirectory()) {\n      filelist = walkDirectorySync(p, filelist, comparator);\n    } else {\n      comparator(p) && filelist.push(p);\n    }\n  });\n\n  return filelist;\n};\n\nexports.default = walkDirectorySync;\nmodule.exports = exports['default'];\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndhbGtEaXJlY3RvcnlTeW5jLmpzIl0sIm5hbWVzIjpbIndhbGtEaXJlY3RvcnlTeW5jIiwiZGlyIiwiZmlsZWxpc3QiLCJjb21wYXJhdG9yIiwiZmlsZXMiLCJyZWFkZGlyU3luYyIsImZvckVhY2giLCJmaWxlIiwicCIsImpvaW4iLCJzdGF0U3luYyIsImlzRGlyZWN0b3J5IiwicHVzaCJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUE7Ozs7Ozs7Ozs7QUFVQSxJQUFNQSxvQkFBb0IsU0FBcEJBLGlCQUFvQixDQUFDQyxHQUFELEVBQWlEO0FBQUEsTUFBM0NDLFFBQTJDLHVFQUFoQyxFQUFnQztBQUFBLE1BQTVCQyxVQUE0Qix1RUFBZjtBQUFBLFdBQU0sSUFBTjtBQUFBLEdBQWU7O0FBQ3pFLE1BQU1DLFFBQVEsYUFBR0MsV0FBSCxDQUFlSixHQUFmLENBQWQ7O0FBRUFHLFFBQU1FLE9BQU4sQ0FBYyxVQUFDQyxJQUFELEVBQVU7QUFDdEIsUUFBTUMsSUFBSSxlQUFLQyxJQUFMLENBQVVSLEdBQVYsRUFBZU0sSUFBZixDQUFWO0FBQ0EsUUFBSSxhQUFHRyxRQUFILENBQVlGLENBQVosRUFBZUcsV0FBZixFQUFKLEVBQWtDO0FBQ2hDVCxpQkFBV0Ysa0JBQWtCUSxDQUFsQixFQUFxQk4sUUFBckIsRUFBK0JDLFVBQS9CLENBQVg7QUFDRCxLQUZELE1BRU87QUFDTEEsaUJBQVdLLENBQVgsS0FBaUJOLFNBQVNVLElBQVQsQ0FBY0osQ0FBZCxDQUFqQjtBQUNEO0FBQ0YsR0FQRDs7QUFTQSxTQUFPTixRQUFQO0FBQ0QsQ0FiRDs7a0JBZ0JlRixpQiIsImZpbGUiOiJ3YWxrRGlyZWN0b3J5U3luYy5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvbWFjL2RldnMvd29uZGVyL3BhY2thZ2VzL2NsaWVudC9ndWxwL2hlbHBlcnMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZnMgZnJvbSAnZnMnO1xuaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7XG5cbi8qKlxuICogUmVjdXJzaXZlbHkgd2Fsa3MgdGhlIGRpcmVjdG9yeSB0cmVlIHN0YXJ0aW5nIGF0IGBkaXJgLFxuICogY29sbGVjdGluZyBhbGwgZmlsZXBhdGhzIHdoaWNoIG1hdGNoIGBjb21wYXJhdG9yYFxuICpcbiAqIEBwYXJhbSAge3N0cmluZ30gICBkaXIgICAgICAgIFRoZSBkaXJlY3RvcnkgdG8gd2Fsa1xuICogQHBhcmFtICB7YXJyYXl9ICAgIGZpbGVsaXN0ICAgVGhlIGZpbGUgbGlzdFxuICogQHBhcmFtICB7ZnVuY3Rpb259IGNvbXBhcmF0b3IgVGhlIGNvbXBhcmF0b3JcbiAqXG4gKiBAcmV0dXJuIHthcnJheX1cbiAqL1xuY29uc3Qgd2Fsa0RpcmVjdG9yeVN5bmMgPSAoZGlyLCBmaWxlbGlzdCA9IFtdLCBjb21wYXJhdG9yID0gKCkgPT4gdHJ1ZSkgPT4ge1xuICBjb25zdCBmaWxlcyA9IGZzLnJlYWRkaXJTeW5jKGRpcik7XG5cbiAgZmlsZXMuZm9yRWFjaCgoZmlsZSkgPT4ge1xuICAgIGNvbnN0IHAgPSBwYXRoLmpvaW4oZGlyLCBmaWxlKTtcbiAgICBpZiAoZnMuc3RhdFN5bmMocCkuaXNEaXJlY3RvcnkoKSkge1xuICAgICAgZmlsZWxpc3QgPSB3YWxrRGlyZWN0b3J5U3luYyhwLCBmaWxlbGlzdCwgY29tcGFyYXRvcik7XG4gICAgfSBlbHNlIHtcbiAgICAgIGNvbXBhcmF0b3IocCkgJiYgZmlsZWxpc3QucHVzaChwKTtcbiAgICB9XG4gIH0pO1xuXG4gIHJldHVybiBmaWxlbGlzdDtcbn07XG5cblxuZXhwb3J0IGRlZmF1bHQgd2Fsa0RpcmVjdG9yeVN5bmM7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "walkDirectorySync.js"
+      ],
+      "names": [
+        "walkDirectorySync",
+        "dir",
+        "filelist",
+        "comparator",
+        "files",
+        "readdirSync",
+        "forEach",
+        "file",
+        "p",
+        "join",
+        "statSync",
+        "isDirectory",
+        "push"
+      ],
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;;;AAEA;;;;;;;;;;AAUA,IAAMA,oBAAoB,SAApBA,iBAAoB,CAACC,GAAD,EAAiD;AAAA,MAA3CC,QAA2C,uEAAhC,EAAgC;AAAA,MAA5BC,UAA4B,uEAAf;AAAA,WAAM,IAAN;AAAA,GAAe;;AACzE,MAAMC,QAAQ,aAAGC,WAAH,CAAeJ,GAAf,CAAd;;AAEAG,QAAME,OAAN,CAAc,UAACC,IAAD,EAAU;AACtB,QAAMC,IAAI,eAAKC,IAAL,CAAUR,GAAV,EAAeM,IAAf,CAAV;AACA,QAAI,aAAGG,QAAH,CAAYF,CAAZ,EAAeG,WAAf,EAAJ,EAAkC;AAChCT,iBAAWF,kBAAkBQ,CAAlB,EAAqBN,QAArB,EAA+BC,UAA/B,CAAX;AACD,KAFD,MAEO;AACLA,iBAAWK,CAAX,KAAiBN,SAASU,IAAT,CAAcJ,CAAd,CAAjB;AACD;AACF,GAPD;;AASA,SAAON,QAAP;AACD,CAbD;;kBAgBeF,iB",
+      "file": "walkDirectorySync.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client/gulp/helpers",
+      "sourcesContent": [
+        "import fs from 'fs';\nimport path from 'path';\n\n/**\n * Recursively walks the directory tree starting at `dir`,\n * collecting all filepaths which match `comparator`\n *\n * @param  {string}   dir        The directory to walk\n * @param  {array}    filelist   The file list\n * @param  {function} comparator The comparator\n *\n * @return {array}\n */\nconst walkDirectorySync = (dir, filelist = [], comparator = () => true) => {\n  const files = fs.readdirSync(dir);\n\n  files.forEach((file) => {\n    const p = path.join(dir, file);\n    if (fs.statSync(p).isDirectory()) {\n      filelist = walkDirectorySync(p, filelist, comparator);\n    } else {\n      comparator(p) && filelist.push(p);\n    }\n  });\n\n  return filelist;\n};\n\n\nexport default walkDirectorySync;\n"
+      ]
+    },
+    "mtime": 1642440543543
+  },
+  "{\"filename\":\"/Users/mac/devs/wonder/packages/client/gulp/buildJS.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/mac/devs/wonder/packages/client/gulp\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0:development": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "gulp",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "gulp"
+              }
+            ]
+          },
+          {
+            "source": "webpack",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpack"
+              }
+            ]
+          },
+          {
+            "source": "fs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "fs"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "progress",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "ProgressBar"
+              }
+            ]
+          },
+          {
+            "source": "../webpack.config.production",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "productionConfig"
+              }
+            ]
+          },
+          {
+            "source": "../webpack.config.development",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "developmentConfig"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "frontendBuildProd",
+            "frontendWatch"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "frontendBuildProd",
+              "exported": "frontendBuildProd"
+            },
+            {
+              "kind": "local",
+              "local": "frontendWatch",
+              "exported": "frontendWatch"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/mac/devs/wonder/packages/client/gulp/buildJS.js",
+      "filenameRelative": "/Users/mac/devs/wonder/packages/client/gulp/buildJS.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "buildJS.js",
+      "sourceFileName": "buildJS.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client/gulp",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/mac/devs/wonder/packages/client/gulp",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "buildJS"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.frontendWatch = exports.frontendBuildProd = undefined;\n\nvar _gulp = require('gulp');\n\nvar _gulp2 = _interopRequireDefault(_gulp);\n\nvar _webpack = require('webpack');\n\nvar _webpack2 = _interopRequireDefault(_webpack);\n\nvar _fs = require('fs');\n\nvar _fs2 = _interopRequireDefault(_fs);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _progress = require('progress');\n\nvar _progress2 = _interopRequireDefault(_progress);\n\nvar _webpackConfig = require('../webpack.config.production');\n\nvar _webpackConfig2 = _interopRequireDefault(_webpackConfig);\n\nvar _webpackConfig3 = require('../webpack.config.development');\n\nvar _webpackConfig4 = _interopRequireDefault(_webpackConfig3);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar statsConfig = {\n  colors: true,\n  source: false,\n  reasons: false,\n  chunkModules: false,\n  assets: false\n};\n\nvar onBuild = function onBuild(done) {\n  return function (err, stats) {\n    if (err) {\n      console.log('Error', err);\n    } else {\n      console.log(stats.toString(statsConfig));\n      _fs2.default.writeFileSync(_path2.default.resolve(__dirname, '../hash.txt'), stats.hash);\n    }\n\n    if (done) {\n      done();\n    }\n  };\n};\n\nvar useProgressBar = function useProgressBar(wp) {\n  var bar = new _progress2.default(PROGRESS_FORMAT, {\n    total: 100,\n    width: 20,\n    stream: process.stdout\n  });\n  wp.apply(new _webpack2.default.ProgressPlugin(function (percentage, msg) {\n    bar.update(percentage);\n  }));\n};\n\nvar PROGRESS_FORMAT = 'compiling: [:bar] :percent elapsed: :elapseds';\n\nvar frontendBuild = function frontendBuild(config) {\n  return function (done) {\n    var wp = (0, _webpack2.default)(config);\n    useProgressBar(wp);\n    return wp.run(onBuild(done));\n  };\n};\n\nvar frontendBuildProd = exports.frontendBuildProd = frontendBuild(_webpackConfig2.default);\n\nvar frontendWatch = exports.frontendWatch = function frontendWatch(done) {\n  var nodemon = require('nodemon');\n\n  var wp = (0, _webpack2.default)(_webpackConfig4.default);\n  useProgressBar(wp);\n  var doneCalled = false;\n\n  // In order to have a fully built file prior to starting\n  // nodemon, we listen for the done event.\n  // We have to make sure to only call the callback once,\n  // else gulp will complain about it.\n  wp.plugin('done', function (stats) {\n    if (!doneCalled) {\n      onBuild(done)(null, stats);\n      doneCalled = true;\n    }\n  });\n\n  wp.watch(100, function (err, stats) {\n    onBuild()(err, stats);\n    // There are nodemon issues abound about this but they continue to go unaddressed\n    // https://github.com/remy/nodemon/issues/1491\n    // https://github.com/remy/nodemon/issues/1316\n    // So for now, setTimeout seems to do the trick to allow the previously used port to free up\n    setTimeout(function () {\n      nodemon.restart();\n    }, 3000);\n  });\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJ1aWxkSlMuanMiXSwibmFtZXMiOlsic3RhdHNDb25maWciLCJjb2xvcnMiLCJzb3VyY2UiLCJyZWFzb25zIiwiY2h1bmtNb2R1bGVzIiwiYXNzZXRzIiwib25CdWlsZCIsImRvbmUiLCJlcnIiLCJzdGF0cyIsImNvbnNvbGUiLCJsb2ciLCJ0b1N0cmluZyIsIndyaXRlRmlsZVN5bmMiLCJyZXNvbHZlIiwiX19kaXJuYW1lIiwiaGFzaCIsInVzZVByb2dyZXNzQmFyIiwid3AiLCJiYXIiLCJQUk9HUkVTU19GT1JNQVQiLCJ0b3RhbCIsIndpZHRoIiwic3RyZWFtIiwicHJvY2VzcyIsInN0ZG91dCIsImFwcGx5IiwiUHJvZ3Jlc3NQbHVnaW4iLCJwZXJjZW50YWdlIiwibXNnIiwidXBkYXRlIiwiZnJvbnRlbmRCdWlsZCIsImNvbmZpZyIsInJ1biIsImZyb250ZW5kQnVpbGRQcm9kIiwiZnJvbnRlbmRXYXRjaCIsIm5vZGVtb24iLCJyZXF1aXJlIiwiZG9uZUNhbGxlZCIsInBsdWdpbiIsIndhdGNoIiwic2V0VGltZW91dCIsInJlc3RhcnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBRUE7Ozs7QUFDQTs7Ozs7O0FBRUEsSUFBTUEsY0FBYztBQUNsQkMsVUFBUSxJQURVO0FBRWxCQyxVQUFRLEtBRlU7QUFHbEJDLFdBQVMsS0FIUztBQUlsQkMsZ0JBQWMsS0FKSTtBQUtsQkMsVUFBUTtBQUxVLENBQXBCOztBQVFBLElBQU1DLFVBQVUsU0FBVkEsT0FBVSxDQUFDQyxJQUFELEVBQVU7QUFDeEIsU0FBTyxVQUFDQyxHQUFELEVBQU1DLEtBQU4sRUFBZ0I7QUFDckIsUUFBSUQsR0FBSixFQUFTO0FBQ1BFLGNBQVFDLEdBQVIsQ0FBWSxPQUFaLEVBQXFCSCxHQUFyQjtBQUNELEtBRkQsTUFFTztBQUNMRSxjQUFRQyxHQUFSLENBQVlGLE1BQU1HLFFBQU4sQ0FBZVosV0FBZixDQUFaO0FBQ0EsbUJBQUdhLGFBQUgsQ0FBaUIsZUFBS0MsT0FBTCxDQUFhQyxTQUFiLEVBQXdCLGFBQXhCLENBQWpCLEVBQXlETixNQUFNTyxJQUEvRDtBQUNEOztBQUVELFFBQUlULElBQUosRUFBVTtBQUNSQTtBQUNEO0FBQ0YsR0FYRDtBQVlELENBYkQ7O0FBZUEsSUFBTVUsaUJBQWlCLFNBQWpCQSxjQUFpQixDQUFDQyxFQUFELEVBQVE7QUFDN0IsTUFBTUMsTUFBTSx1QkFBZ0JDLGVBQWhCLEVBQWlDO0FBQzNDQyxXQUFPLEdBRG9DO0FBRTNDQyxXQUFPLEVBRm9DO0FBRzNDQyxZQUFRQyxRQUFRQztBQUgyQixHQUFqQyxDQUFaO0FBS0FQLEtBQUdRLEtBQUgsQ0FBUyxJQUFJLGtCQUFRQyxjQUFaLENBQTJCLFVBQUNDLFVBQUQsRUFBYUMsR0FBYixFQUFxQjtBQUN2RFYsUUFBSVcsTUFBSixDQUFXRixVQUFYO0FBQ0QsR0FGUSxDQUFUO0FBR0QsQ0FURDs7QUFXQSxJQUFNUixrQkFBa0IsK0NBQXhCOztBQUVBLElBQU1XLGdCQUFnQixTQUFoQkEsYUFBZ0IsQ0FBQ0MsTUFBRDtBQUFBLFNBQVksVUFBQ3pCLElBQUQsRUFBVTtBQUMxQyxRQUFNVyxLQUFLLHVCQUFRYyxNQUFSLENBQVg7QUFDQWYsbUJBQWVDLEVBQWY7QUFDQSxXQUFPQSxHQUFHZSxHQUFILENBQU8zQixRQUFRQyxJQUFSLENBQVAsQ0FBUDtBQUNELEdBSnFCO0FBQUEsQ0FBdEI7O0FBTU8sSUFBTTJCLGdEQUFvQkgsc0NBQTFCOztBQUVBLElBQU1JLHdDQUFnQixTQUFoQkEsYUFBZ0IsQ0FBQzVCLElBQUQsRUFBVTtBQUNyQyxNQUFNNkIsVUFBVUMsUUFBUSxTQUFSLENBQWhCOztBQUVBLE1BQU1uQixLQUFLLCtDQUFYO0FBQ0FELGlCQUFlQyxFQUFmO0FBQ0EsTUFBSW9CLGFBQWEsS0FBakI7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQXBCLEtBQUdxQixNQUFILENBQVUsTUFBVixFQUFrQixVQUFDOUIsS0FBRCxFQUFXO0FBQzNCLFFBQUksQ0FBQzZCLFVBQUwsRUFBaUI7QUFDZmhDLGNBQVFDLElBQVIsRUFBYyxJQUFkLEVBQW9CRSxLQUFwQjtBQUNBNkIsbUJBQWEsSUFBYjtBQUNEO0FBQ0YsR0FMRDs7QUFPQXBCLEtBQUdzQixLQUFILENBQVMsR0FBVCxFQUFjLFVBQUNoQyxHQUFELEVBQU1DLEtBQU4sRUFBZ0I7QUFDNUJILGNBQVVFLEdBQVYsRUFBZUMsS0FBZjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0FnQyxlQUFXLFlBQU07QUFDZkwsY0FBUU0sT0FBUjtBQUNELEtBRkQsRUFFRyxJQUZIO0FBR0QsR0FURDtBQVVELENBNUJNIiwiZmlsZSI6ImJ1aWxkSlMuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL21hYy9kZXZzL3dvbmRlci9wYWNrYWdlcy9jbGllbnQvZ3VscCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBndWxwIGZyb20gJ2d1bHAnO1xuaW1wb3J0IHdlYnBhY2sgZnJvbSAnd2VicGFjayc7XG5pbXBvcnQgZnMgZnJvbSAnZnMnO1xuaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7XG5pbXBvcnQgUHJvZ3Jlc3NCYXIgZnJvbSAncHJvZ3Jlc3MnO1xuXG5pbXBvcnQgcHJvZHVjdGlvbkNvbmZpZyBmcm9tICcuLi93ZWJwYWNrLmNvbmZpZy5wcm9kdWN0aW9uJztcbmltcG9ydCBkZXZlbG9wbWVudENvbmZpZyBmcm9tICcuLi93ZWJwYWNrLmNvbmZpZy5kZXZlbG9wbWVudCc7XG5cbmNvbnN0IHN0YXRzQ29uZmlnID0ge1xuICBjb2xvcnM6IHRydWUsXG4gIHNvdXJjZTogZmFsc2UsXG4gIHJlYXNvbnM6IGZhbHNlLFxuICBjaHVua01vZHVsZXM6IGZhbHNlLFxuICBhc3NldHM6IGZhbHNlLFxufTtcblxuY29uc3Qgb25CdWlsZCA9IChkb25lKSA9PiB7XG4gIHJldHVybiAoZXJyLCBzdGF0cykgPT4ge1xuICAgIGlmIChlcnIpIHtcbiAgICAgIGNvbnNvbGUubG9nKCdFcnJvcicsIGVycik7XG4gICAgfSBlbHNlIHtcbiAgICAgIGNvbnNvbGUubG9nKHN0YXRzLnRvU3RyaW5nKHN0YXRzQ29uZmlnKSk7XG4gICAgICBmcy53cml0ZUZpbGVTeW5jKHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICcuLi9oYXNoLnR4dCcpLCBzdGF0cy5oYXNoKTtcbiAgICB9XG5cbiAgICBpZiAoZG9uZSkge1xuICAgICAgZG9uZSgpO1xuICAgIH1cbiAgfTtcbn07XG5cbmNvbnN0IHVzZVByb2dyZXNzQmFyID0gKHdwKSA9PiB7XG4gIGNvbnN0IGJhciA9IG5ldyBQcm9ncmVzc0JhcihQUk9HUkVTU19GT1JNQVQsIHtcbiAgICB0b3RhbDogMTAwLFxuICAgIHdpZHRoOiAyMCxcbiAgICBzdHJlYW06IHByb2Nlc3Muc3Rkb3V0XG4gIH0pO1xuICB3cC5hcHBseShuZXcgd2VicGFjay5Qcm9ncmVzc1BsdWdpbigocGVyY2VudGFnZSwgbXNnKSA9PiB7XG4gICAgYmFyLnVwZGF0ZShwZXJjZW50YWdlKTtcbiAgfSkpO1xufTtcblxuY29uc3QgUFJPR1JFU1NfRk9STUFUID0gJ2NvbXBpbGluZzogWzpiYXJdIDpwZXJjZW50IGVsYXBzZWQ6IDplbGFwc2Vkcyc7XG5cbmNvbnN0IGZyb250ZW5kQnVpbGQgPSAoY29uZmlnKSA9PiAoZG9uZSkgPT4ge1xuICBjb25zdCB3cCA9IHdlYnBhY2soY29uZmlnKTtcbiAgdXNlUHJvZ3Jlc3NCYXIod3ApO1xuICByZXR1cm4gd3AucnVuKG9uQnVpbGQoZG9uZSkpO1xufTtcblxuZXhwb3J0IGNvbnN0IGZyb250ZW5kQnVpbGRQcm9kID0gZnJvbnRlbmRCdWlsZChwcm9kdWN0aW9uQ29uZmlnKTtcblxuZXhwb3J0IGNvbnN0IGZyb250ZW5kV2F0Y2ggPSAoZG9uZSkgPT4ge1xuICBjb25zdCBub2RlbW9uID0gcmVxdWlyZSgnbm9kZW1vbicpO1xuXG4gIGNvbnN0IHdwID0gd2VicGFjayhkZXZlbG9wbWVudENvbmZpZyk7XG4gIHVzZVByb2dyZXNzQmFyKHdwKTtcbiAgbGV0IGRvbmVDYWxsZWQgPSBmYWxzZTtcblxuICAvLyBJbiBvcmRlciB0byBoYXZlIGEgZnVsbHkgYnVpbHQgZmlsZSBwcmlvciB0byBzdGFydGluZ1xuICAvLyBub2RlbW9uLCB3ZSBsaXN0ZW4gZm9yIHRoZSBkb25lIGV2ZW50LlxuICAvLyBXZSBoYXZlIHRvIG1ha2Ugc3VyZSB0byBvbmx5IGNhbGwgdGhlIGNhbGxiYWNrIG9uY2UsXG4gIC8vIGVsc2UgZ3VscCB3aWxsIGNvbXBsYWluIGFib3V0IGl0LlxuICB3cC5wbHVnaW4oJ2RvbmUnLCAoc3RhdHMpID0+IHtcbiAgICBpZiAoIWRvbmVDYWxsZWQpIHtcbiAgICAgIG9uQnVpbGQoZG9uZSkobnVsbCwgc3RhdHMpO1xuICAgICAgZG9uZUNhbGxlZCA9IHRydWU7XG4gICAgfVxuICB9KTtcblxuICB3cC53YXRjaCgxMDAsIChlcnIsIHN0YXRzKSA9PiB7XG4gICAgb25CdWlsZCgpKGVyciwgc3RhdHMpO1xuICAgIC8vIFRoZXJlIGFyZSBub2RlbW9uIGlzc3VlcyBhYm91bmQgYWJvdXQgdGhpcyBidXQgdGhleSBjb250aW51ZSB0byBnbyB1bmFkZHJlc3NlZFxuICAgIC8vIGh0dHBzOi8vZ2l0aHViLmNvbS9yZW15L25vZGVtb24vaXNzdWVzLzE0OTFcbiAgICAvLyBodHRwczovL2dpdGh1Yi5jb20vcmVteS9ub2RlbW9uL2lzc3Vlcy8xMzE2XG4gICAgLy8gU28gZm9yIG5vdywgc2V0VGltZW91dCBzZWVtcyB0byBkbyB0aGUgdHJpY2sgdG8gYWxsb3cgdGhlIHByZXZpb3VzbHkgdXNlZCBwb3J0IHRvIGZyZWUgdXBcbiAgICBzZXRUaW1lb3V0KCgpID0+IHtcbiAgICAgIG5vZGVtb24ucmVzdGFydCgpO1xuICAgIH0sIDMwMDApO1xuICB9KTtcbn07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "buildJS.js"
+      ],
+      "names": [
+        "statsConfig",
+        "colors",
+        "source",
+        "reasons",
+        "chunkModules",
+        "assets",
+        "onBuild",
+        "done",
+        "err",
+        "stats",
+        "console",
+        "log",
+        "toString",
+        "writeFileSync",
+        "resolve",
+        "__dirname",
+        "hash",
+        "useProgressBar",
+        "wp",
+        "bar",
+        "PROGRESS_FORMAT",
+        "total",
+        "width",
+        "stream",
+        "process",
+        "stdout",
+        "apply",
+        "ProgressPlugin",
+        "percentage",
+        "msg",
+        "update",
+        "frontendBuild",
+        "config",
+        "run",
+        "frontendBuildProd",
+        "frontendWatch",
+        "nodemon",
+        "require",
+        "doneCalled",
+        "plugin",
+        "watch",
+        "setTimeout",
+        "restart"
+      ],
+      "mappings": ";;;;;;;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AAEA;;;;AACA;;;;;;AAEA,IAAMA,cAAc;AAClBC,UAAQ,IADU;AAElBC,UAAQ,KAFU;AAGlBC,WAAS,KAHS;AAIlBC,gBAAc,KAJI;AAKlBC,UAAQ;AALU,CAApB;;AAQA,IAAMC,UAAU,SAAVA,OAAU,CAACC,IAAD,EAAU;AACxB,SAAO,UAACC,GAAD,EAAMC,KAAN,EAAgB;AACrB,QAAID,GAAJ,EAAS;AACPE,cAAQC,GAAR,CAAY,OAAZ,EAAqBH,GAArB;AACD,KAFD,MAEO;AACLE,cAAQC,GAAR,CAAYF,MAAMG,QAAN,CAAeZ,WAAf,CAAZ;AACA,mBAAGa,aAAH,CAAiB,eAAKC,OAAL,CAAaC,SAAb,EAAwB,aAAxB,CAAjB,EAAyDN,MAAMO,IAA/D;AACD;;AAED,QAAIT,IAAJ,EAAU;AACRA;AACD;AACF,GAXD;AAYD,CAbD;;AAeA,IAAMU,iBAAiB,SAAjBA,cAAiB,CAACC,EAAD,EAAQ;AAC7B,MAAMC,MAAM,uBAAgBC,eAAhB,EAAiC;AAC3CC,WAAO,GADoC;AAE3CC,WAAO,EAFoC;AAG3CC,YAAQC,QAAQC;AAH2B,GAAjC,CAAZ;AAKAP,KAAGQ,KAAH,CAAS,IAAI,kBAAQC,cAAZ,CAA2B,UAACC,UAAD,EAAaC,GAAb,EAAqB;AACvDV,QAAIW,MAAJ,CAAWF,UAAX;AACD,GAFQ,CAAT;AAGD,CATD;;AAWA,IAAMR,kBAAkB,+CAAxB;;AAEA,IAAMW,gBAAgB,SAAhBA,aAAgB,CAACC,MAAD;AAAA,SAAY,UAACzB,IAAD,EAAU;AAC1C,QAAMW,KAAK,uBAAQc,MAAR,CAAX;AACAf,mBAAeC,EAAf;AACA,WAAOA,GAAGe,GAAH,CAAO3B,QAAQC,IAAR,CAAP,CAAP;AACD,GAJqB;AAAA,CAAtB;;AAMO,IAAM2B,gDAAoBH,sCAA1B;;AAEA,IAAMI,wCAAgB,SAAhBA,aAAgB,CAAC5B,IAAD,EAAU;AACrC,MAAM6B,UAAUC,QAAQ,SAAR,CAAhB;;AAEA,MAAMnB,KAAK,+CAAX;AACAD,iBAAeC,EAAf;AACA,MAAIoB,aAAa,KAAjB;;AAEA;AACA;AACA;AACA;AACApB,KAAGqB,MAAH,CAAU,MAAV,EAAkB,UAAC9B,KAAD,EAAW;AAC3B,QAAI,CAAC6B,UAAL,EAAiB;AACfhC,cAAQC,IAAR,EAAc,IAAd,EAAoBE,KAApB;AACA6B,mBAAa,IAAb;AACD;AACF,GALD;;AAOApB,KAAGsB,KAAH,CAAS,GAAT,EAAc,UAAChC,GAAD,EAAMC,KAAN,EAAgB;AAC5BH,cAAUE,GAAV,EAAeC,KAAf;AACA;AACA;AACA;AACA;AACAgC,eAAW,YAAM;AACfL,cAAQM,OAAR;AACD,KAFD,EAEG,IAFH;AAGD,GATD;AAUD,CA5BM",
+      "file": "buildJS.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client/gulp",
+      "sourcesContent": [
+        "import gulp from 'gulp';\nimport webpack from 'webpack';\nimport fs from 'fs';\nimport path from 'path';\nimport ProgressBar from 'progress';\n\nimport productionConfig from '../webpack.config.production';\nimport developmentConfig from '../webpack.config.development';\n\nconst statsConfig = {\n  colors: true,\n  source: false,\n  reasons: false,\n  chunkModules: false,\n  assets: false,\n};\n\nconst onBuild = (done) => {\n  return (err, stats) => {\n    if (err) {\n      console.log('Error', err);\n    } else {\n      console.log(stats.toString(statsConfig));\n      fs.writeFileSync(path.resolve(__dirname, '../hash.txt'), stats.hash);\n    }\n\n    if (done) {\n      done();\n    }\n  };\n};\n\nconst useProgressBar = (wp) => {\n  const bar = new ProgressBar(PROGRESS_FORMAT, {\n    total: 100,\n    width: 20,\n    stream: process.stdout\n  });\n  wp.apply(new webpack.ProgressPlugin((percentage, msg) => {\n    bar.update(percentage);\n  }));\n};\n\nconst PROGRESS_FORMAT = 'compiling: [:bar] :percent elapsed: :elapseds';\n\nconst frontendBuild = (config) => (done) => {\n  const wp = webpack(config);\n  useProgressBar(wp);\n  return wp.run(onBuild(done));\n};\n\nexport const frontendBuildProd = frontendBuild(productionConfig);\n\nexport const frontendWatch = (done) => {\n  const nodemon = require('nodemon');\n\n  const wp = webpack(developmentConfig);\n  useProgressBar(wp);\n  let doneCalled = false;\n\n  // In order to have a fully built file prior to starting\n  // nodemon, we listen for the done event.\n  // We have to make sure to only call the callback once,\n  // else gulp will complain about it.\n  wp.plugin('done', (stats) => {\n    if (!doneCalled) {\n      onBuild(done)(null, stats);\n      doneCalled = true;\n    }\n  });\n\n  wp.watch(100, (err, stats) => {\n    onBuild()(err, stats);\n    // There are nodemon issues abound about this but they continue to go unaddressed\n    // https://github.com/remy/nodemon/issues/1491\n    // https://github.com/remy/nodemon/issues/1316\n    // So for now, setTimeout seems to do the trick to allow the previously used port to free up\n    setTimeout(() => {\n      nodemon.restart();\n    }, 3000);\n  });\n};\n"
+      ]
+    },
+    "mtime": 1642440543543
+  },
+  "{\"filename\":\"/Users/mac/devs/wonder/packages/client/webpack.config.production.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/mac/devs/wonder/packages/client\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0:development": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/mac/devs/wonder/packages/client/webpack.config.production.js",
+      "filenameRelative": "/Users/mac/devs/wonder/packages/client/webpack.config.production.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "webpack.config.production.js",
+      "sourceFileName": "webpack.config.production.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/mac/devs/wonder/packages/client",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "webpack.config.production"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _assign = require('babel-runtime/core-js/object/assign');\n\nvar _assign2 = _interopRequireDefault(_assign);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar fs = require('fs');\nvar webpack = require('webpack');\n\nvar baseConfig = require('./webpack.config');\n\nvar config = (0, _assign2.default)({}, baseConfig);\n\nconfig.output = {\n  path: __dirname + '/dist/wonder-client/',\n  filename: 'wonder.[hash].js',\n  publicPath: '/dist/wonder-client/'\n};\n\nvar isBeta = !!process.env.WONDER_BETA;\nconfig.plugins = [new webpack.DefinePlugin({\n  'process.env': {\n    NODE_ENV: '\"production\"',\n    WONDER_BETA: isBeta ? '\"beta\"' : '\"\"'\n  }\n}), new webpack.optimize.UglifyJsPlugin({\n  compress: {\n    screw_ie8: true,\n    warnings: false\n  },\n  sourceMap: false\n})];\n\nmodule.exports = config;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2suY29uZmlnLnByb2R1Y3Rpb24uanMiXSwibmFtZXMiOlsiZnMiLCJyZXF1aXJlIiwid2VicGFjayIsImJhc2VDb25maWciLCJjb25maWciLCJvdXRwdXQiLCJwYXRoIiwiX19kaXJuYW1lIiwiZmlsZW5hbWUiLCJwdWJsaWNQYXRoIiwiaXNCZXRhIiwicHJvY2VzcyIsImVudiIsIldPTkRFUl9CRVRBIiwicGx1Z2lucyIsIkRlZmluZVBsdWdpbiIsIk5PREVfRU5WIiwib3B0aW1pemUiLCJVZ2xpZnlKc1BsdWdpbiIsImNvbXByZXNzIiwic2NyZXdfaWU4Iiwid2FybmluZ3MiLCJzb3VyY2VNYXAiLCJtb2R1bGUiLCJleHBvcnRzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFBLElBQUlBLEtBQU1DLFFBQVEsSUFBUixDQUFWO0FBQ0EsSUFBSUMsVUFBVUQsUUFBUSxTQUFSLENBQWQ7O0FBRUEsSUFBSUUsYUFBYUYsUUFBUSxrQkFBUixDQUFqQjs7QUFFQSxJQUFJRyxTQUFTLHNCQUFjLEVBQWQsRUFBa0JELFVBQWxCLENBQWI7O0FBRUFDLE9BQU9DLE1BQVAsR0FBZ0I7QUFDZEMsUUFBTUMsWUFBWSxzQkFESjtBQUVkQyxZQUFVLGtCQUZJO0FBR2RDLGNBQVk7QUFIRSxDQUFoQjs7QUFNQSxJQUFJQyxTQUFTLENBQUMsQ0FBQ0MsUUFBUUMsR0FBUixDQUFZQyxXQUEzQjtBQUNBVCxPQUFPVSxPQUFQLEdBQWlCLENBQ2YsSUFBSVosUUFBUWEsWUFBWixDQUF5QjtBQUN2QixpQkFBZTtBQUNiQyxjQUFVLGNBREc7QUFFYkgsaUJBQWFILFNBQVMsUUFBVCxHQUFvQjtBQUZwQjtBQURRLENBQXpCLENBRGUsRUFPZixJQUFJUixRQUFRZSxRQUFSLENBQWlCQyxjQUFyQixDQUFvQztBQUNsQ0MsWUFBVTtBQUNSQyxlQUFXLElBREg7QUFFUkMsY0FBVTtBQUZGLEdBRHdCO0FBS2xDQyxhQUFXO0FBTHVCLENBQXBDLENBUGUsQ0FBakI7O0FBZ0JBQyxPQUFPQyxPQUFQLEdBQWlCcEIsTUFBakIiLCJmaWxlIjoid2VicGFjay5jb25maWcucHJvZHVjdGlvbi5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvbWFjL2RldnMvd29uZGVyL3BhY2thZ2VzL2NsaWVudCIsInNvdXJjZXNDb250ZW50IjpbInZhciBmcyAgPSByZXF1aXJlKCdmcycpO1xudmFyIHdlYnBhY2sgPSByZXF1aXJlKCd3ZWJwYWNrJyk7XG5cbnZhciBiYXNlQ29uZmlnID0gcmVxdWlyZSgnLi93ZWJwYWNrLmNvbmZpZycpO1xuXG52YXIgY29uZmlnID0gT2JqZWN0LmFzc2lnbih7fSwgYmFzZUNvbmZpZyk7XG5cbmNvbmZpZy5vdXRwdXQgPSB7XG4gIHBhdGg6IF9fZGlybmFtZSArICcvZGlzdC93b25kZXItY2xpZW50LycsXG4gIGZpbGVuYW1lOiAnd29uZGVyLltoYXNoXS5qcycsXG4gIHB1YmxpY1BhdGg6ICcvZGlzdC93b25kZXItY2xpZW50Lydcbn07XG5cbnZhciBpc0JldGEgPSAhIXByb2Nlc3MuZW52LldPTkRFUl9CRVRBO1xuY29uZmlnLnBsdWdpbnMgPSBbXG4gIG5ldyB3ZWJwYWNrLkRlZmluZVBsdWdpbih7XG4gICAgJ3Byb2Nlc3MuZW52Jzoge1xuICAgICAgTk9ERV9FTlY6ICdcInByb2R1Y3Rpb25cIicsXG4gICAgICBXT05ERVJfQkVUQTogaXNCZXRhID8gJ1wiYmV0YVwiJyA6ICdcIlwiJyxcbiAgICB9LFxuICB9KSxcbiAgbmV3IHdlYnBhY2sub3B0aW1pemUuVWdsaWZ5SnNQbHVnaW4oe1xuICAgIGNvbXByZXNzOiB7XG4gICAgICBzY3Jld19pZTg6IHRydWUsXG4gICAgICB3YXJuaW5nczogZmFsc2UsXG4gICAgfSxcbiAgICBzb3VyY2VNYXA6IGZhbHNlLFxuICB9KSxcbl07XG5cbm1vZHVsZS5leHBvcnRzID0gY29uZmlnO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "webpack.config.production.js"
+      ],
+      "names": [
+        "fs",
+        "require",
+        "webpack",
+        "baseConfig",
+        "config",
+        "output",
+        "path",
+        "__dirname",
+        "filename",
+        "publicPath",
+        "isBeta",
+        "process",
+        "env",
+        "WONDER_BETA",
+        "plugins",
+        "DefinePlugin",
+        "NODE_ENV",
+        "optimize",
+        "UglifyJsPlugin",
+        "compress",
+        "screw_ie8",
+        "warnings",
+        "sourceMap",
+        "module",
+        "exports"
+      ],
+      "mappings": ";;;;;;;;AAAA,IAAIA,KAAMC,QAAQ,IAAR,CAAV;AACA,IAAIC,UAAUD,QAAQ,SAAR,CAAd;;AAEA,IAAIE,aAAaF,QAAQ,kBAAR,CAAjB;;AAEA,IAAIG,SAAS,sBAAc,EAAd,EAAkBD,UAAlB,CAAb;;AAEAC,OAAOC,MAAP,GAAgB;AACdC,QAAMC,YAAY,sBADJ;AAEdC,YAAU,kBAFI;AAGdC,cAAY;AAHE,CAAhB;;AAMA,IAAIC,SAAS,CAAC,CAACC,QAAQC,GAAR,CAAYC,WAA3B;AACAT,OAAOU,OAAP,GAAiB,CACf,IAAIZ,QAAQa,YAAZ,CAAyB;AACvB,iBAAe;AACbC,cAAU,cADG;AAEbH,iBAAaH,SAAS,QAAT,GAAoB;AAFpB;AADQ,CAAzB,CADe,EAOf,IAAIR,QAAQe,QAAR,CAAiBC,cAArB,CAAoC;AAClCC,YAAU;AACRC,eAAW,IADH;AAERC,cAAU;AAFF,GADwB;AAKlCC,aAAW;AALuB,CAApC,CAPe,CAAjB;;AAgBAC,OAAOC,OAAP,GAAiBpB,MAAjB",
+      "file": "webpack.config.production.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client",
+      "sourcesContent": [
+        "var fs  = require('fs');\nvar webpack = require('webpack');\n\nvar baseConfig = require('./webpack.config');\n\nvar config = Object.assign({}, baseConfig);\n\nconfig.output = {\n  path: __dirname + '/dist/wonder-client/',\n  filename: 'wonder.[hash].js',\n  publicPath: '/dist/wonder-client/'\n};\n\nvar isBeta = !!process.env.WONDER_BETA;\nconfig.plugins = [\n  new webpack.DefinePlugin({\n    'process.env': {\n      NODE_ENV: '\"production\"',\n      WONDER_BETA: isBeta ? '\"beta\"' : '\"\"',\n    },\n  }),\n  new webpack.optimize.UglifyJsPlugin({\n    compress: {\n      screw_ie8: true,\n      warnings: false,\n    },\n    sourceMap: false,\n  }),\n];\n\nmodule.exports = config;\n"
+      ]
+    },
+    "mtime": 1642440543545
+  },
+  "{\"filename\":\"/Users/mac/devs/wonder/packages/client/webpack.config.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/mac/devs/wonder/packages/client\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0:development": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/mac/devs/wonder/packages/client/webpack.config.js",
+      "filenameRelative": "/Users/mac/devs/wonder/packages/client/webpack.config.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "webpack.config.js",
+      "sourceFileName": "webpack.config.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/mac/devs/wonder/packages/client",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "webpack.config"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar fs = require('fs');\nvar path = require('path');\n\nmodule.exports = {\n  cache: true,\n  context: __dirname,\n  entry: './app/index',\n  module: {\n    rules: [{ test: /\\.json$/, loader: 'json-loader' }, {\n      test: /\\.jsx?$/,\n      include: path.resolve(__dirname, 'app'),\n      loader: 'babel-loader'\n    }, {\n      test: /\\.css$/,\n      loader: 'style-loader!css-loader!stylus-loader?resolve url=1&paths=node_modules/'\n    }, {\n      test: /\\.styl$/,\n      loader: 'style-loader!css-loader!stylus-loader?resolve url=1&paths=node_modules/'\n    }, {\n      test: /\\.less$/,\n      loader: 'style-loader!css-loader!less-loader?resolve url=1&paths=node_modules/'\n    }]\n  },\n\n  resolve: {\n    modules: ['node_modules'],\n    extensions: ['.js', '.jsx']\n  }\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2suY29uZmlnLmpzIl0sIm5hbWVzIjpbImZzIiwicmVxdWlyZSIsInBhdGgiLCJtb2R1bGUiLCJleHBvcnRzIiwiY2FjaGUiLCJjb250ZXh0IiwiX19kaXJuYW1lIiwiZW50cnkiLCJydWxlcyIsInRlc3QiLCJsb2FkZXIiLCJpbmNsdWRlIiwicmVzb2x2ZSIsIm1vZHVsZXMiLCJleHRlbnNpb25zIl0sIm1hcHBpbmdzIjoiOztBQUFBLElBQUlBLEtBQU1DLFFBQVEsSUFBUixDQUFWO0FBQ0EsSUFBSUMsT0FBT0QsUUFBUSxNQUFSLENBQVg7O0FBRUFFLE9BQU9DLE9BQVAsR0FBaUI7QUFDZkMsU0FBTyxJQURRO0FBRWZDLFdBQVNDLFNBRk07QUFHZkMsU0FBTyxhQUhRO0FBSWZMLFVBQVE7QUFDTk0sV0FBTyxDQUNMLEVBQUNDLE1BQU0sU0FBUCxFQUFrQkMsUUFBUSxhQUExQixFQURLLEVBRUw7QUFDRUQsWUFBSyxTQURQO0FBRUVFLGVBQVNWLEtBQUtXLE9BQUwsQ0FBYU4sU0FBYixFQUF3QixLQUF4QixDQUZYO0FBR0VJLGNBQVE7QUFIVixLQUZLLEVBUUw7QUFDRUQsWUFBTSxRQURSO0FBRUVDLGNBQVE7QUFGVixLQVJLLEVBWUw7QUFDRUQsWUFBTSxTQURSO0FBRUVDLGNBQVE7QUFGVixLQVpLLEVBZ0JMO0FBQ0VELFlBQU0sU0FEUjtBQUVFQyxjQUFRO0FBRlYsS0FoQks7QUFERCxHQUpPOztBQTRCZkUsV0FBUztBQUNQQyxhQUFTLENBQUMsY0FBRCxDQURGO0FBRVBDLGdCQUFZLENBQUMsS0FBRCxFQUFRLE1BQVI7QUFGTDtBQTVCTSxDQUFqQiIsImZpbGUiOiJ3ZWJwYWNrLmNvbmZpZy5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvbWFjL2RldnMvd29uZGVyL3BhY2thZ2VzL2NsaWVudCIsInNvdXJjZXNDb250ZW50IjpbInZhciBmcyAgPSByZXF1aXJlKCdmcycpO1xudmFyIHBhdGggPSByZXF1aXJlKCdwYXRoJyk7XG5cbm1vZHVsZS5leHBvcnRzID0ge1xuICBjYWNoZTogdHJ1ZSxcbiAgY29udGV4dDogX19kaXJuYW1lLFxuICBlbnRyeTogJy4vYXBwL2luZGV4JyxcbiAgbW9kdWxlOiB7XG4gICAgcnVsZXM6IFtcbiAgICAgIHt0ZXN0OiAvXFwuanNvbiQvLCBsb2FkZXI6ICdqc29uLWxvYWRlcid9LFxuICAgICAge1xuICAgICAgICB0ZXN0Oi9cXC5qc3g/JC8sXG4gICAgICAgIGluY2x1ZGU6IHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICdhcHAnKSxcbiAgICAgICAgbG9hZGVyOiAnYmFiZWwtbG9hZGVyJyxcbiAgICAgIH0sXG5cbiAgICAgIHtcbiAgICAgICAgdGVzdDogL1xcLmNzcyQvLFxuICAgICAgICBsb2FkZXI6ICdzdHlsZS1sb2FkZXIhY3NzLWxvYWRlciFzdHlsdXMtbG9hZGVyP3Jlc29sdmUgdXJsPTEmcGF0aHM9bm9kZV9tb2R1bGVzLydcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIHRlc3Q6IC9cXC5zdHlsJC8sXG4gICAgICAgIGxvYWRlcjogJ3N0eWxlLWxvYWRlciFjc3MtbG9hZGVyIXN0eWx1cy1sb2FkZXI/cmVzb2x2ZSB1cmw9MSZwYXRocz1ub2RlX21vZHVsZXMvJ1xuICAgICAgfSxcbiAgICAgIHtcbiAgICAgICAgdGVzdDogL1xcLmxlc3MkLyxcbiAgICAgICAgbG9hZGVyOiAnc3R5bGUtbG9hZGVyIWNzcy1sb2FkZXIhbGVzcy1sb2FkZXI/cmVzb2x2ZSB1cmw9MSZwYXRocz1ub2RlX21vZHVsZXMvJ1xuICAgICAgfSxcbiAgICBdLFxuICB9LFxuXG4gIHJlc29sdmU6IHtcbiAgICBtb2R1bGVzOiBbJ25vZGVfbW9kdWxlcyddLFxuICAgIGV4dGVuc2lvbnM6IFsnLmpzJywgJy5qc3gnXSxcbiAgfVxufTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "webpack.config.js"
+      ],
+      "names": [
+        "fs",
+        "require",
+        "path",
+        "module",
+        "exports",
+        "cache",
+        "context",
+        "__dirname",
+        "entry",
+        "rules",
+        "test",
+        "loader",
+        "include",
+        "resolve",
+        "modules",
+        "extensions"
+      ],
+      "mappings": ";;AAAA,IAAIA,KAAMC,QAAQ,IAAR,CAAV;AACA,IAAIC,OAAOD,QAAQ,MAAR,CAAX;;AAEAE,OAAOC,OAAP,GAAiB;AACfC,SAAO,IADQ;AAEfC,WAASC,SAFM;AAGfC,SAAO,aAHQ;AAIfL,UAAQ;AACNM,WAAO,CACL,EAACC,MAAM,SAAP,EAAkBC,QAAQ,aAA1B,EADK,EAEL;AACED,YAAK,SADP;AAEEE,eAASV,KAAKW,OAAL,CAAaN,SAAb,EAAwB,KAAxB,CAFX;AAGEI,cAAQ;AAHV,KAFK,EAQL;AACED,YAAM,QADR;AAEEC,cAAQ;AAFV,KARK,EAYL;AACED,YAAM,SADR;AAEEC,cAAQ;AAFV,KAZK,EAgBL;AACED,YAAM,SADR;AAEEC,cAAQ;AAFV,KAhBK;AADD,GAJO;;AA4BfE,WAAS;AACPC,aAAS,CAAC,cAAD,CADF;AAEPC,gBAAY,CAAC,KAAD,EAAQ,MAAR;AAFL;AA5BM,CAAjB",
+      "file": "webpack.config.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client",
+      "sourcesContent": [
+        "var fs  = require('fs');\nvar path = require('path');\n\nmodule.exports = {\n  cache: true,\n  context: __dirname,\n  entry: './app/index',\n  module: {\n    rules: [\n      {test: /\\.json$/, loader: 'json-loader'},\n      {\n        test:/\\.jsx?$/,\n        include: path.resolve(__dirname, 'app'),\n        loader: 'babel-loader',\n      },\n\n      {\n        test: /\\.css$/,\n        loader: 'style-loader!css-loader!stylus-loader?resolve url=1&paths=node_modules/'\n      },\n      {\n        test: /\\.styl$/,\n        loader: 'style-loader!css-loader!stylus-loader?resolve url=1&paths=node_modules/'\n      },\n      {\n        test: /\\.less$/,\n        loader: 'style-loader!css-loader!less-loader?resolve url=1&paths=node_modules/'\n      },\n    ],\n  },\n\n  resolve: {\n    modules: ['node_modules'],\n    extensions: ['.js', '.jsx'],\n  }\n};\n"
+      ]
+    },
+    "mtime": 1642440543545
+  },
+  "{\"filename\":\"/Users/mac/devs/wonder/packages/client/webpack.config.development.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/mac/devs/wonder/packages/client\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0:development": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/mac/devs/wonder/packages/client/webpack.config.development.js",
+      "filenameRelative": "/Users/mac/devs/wonder/packages/client/webpack.config.development.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "webpack.config.development.js",
+      "sourceFileName": "webpack.config.development.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/mac/devs/wonder/packages/client",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "webpack.config.development"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _stringify = require('babel-runtime/core-js/json/stringify');\n\nvar _stringify2 = _interopRequireDefault(_stringify);\n\nvar _assign = require('babel-runtime/core-js/object/assign');\n\nvar _assign2 = _interopRequireDefault(_assign);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar fs = require('fs');\nvar webpack = require('webpack');\n\nvar baseConfig = require('./webpack.config');\n\nvar config = (0, _assign2.default)({}, baseConfig);\n\nconfig.output = {\n  path: __dirname + '/dist/wonder-client/',\n  filename: 'wonder.dev.js',\n  publicPath: '/dist/wonder-client/'\n};\n\nconfig.devtool = '#cheap-module-eval-source-map';\n\nconfig.plugins = [new webpack.DefinePlugin({\n  'process.env.NODE_ENV': (0, _stringify2.default)('development')\n})];\n\nmodule.exports = config;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2suY29uZmlnLmRldmVsb3BtZW50LmpzIl0sIm5hbWVzIjpbImZzIiwicmVxdWlyZSIsIndlYnBhY2siLCJiYXNlQ29uZmlnIiwiY29uZmlnIiwib3V0cHV0IiwicGF0aCIsIl9fZGlybmFtZSIsImZpbGVuYW1lIiwicHVibGljUGF0aCIsImRldnRvb2wiLCJwbHVnaW5zIiwiRGVmaW5lUGx1Z2luIiwibW9kdWxlIiwiZXhwb3J0cyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUEsSUFBSUEsS0FBTUMsUUFBUSxJQUFSLENBQVY7QUFDQSxJQUFJQyxVQUFVRCxRQUFRLFNBQVIsQ0FBZDs7QUFFQSxJQUFJRSxhQUFhRixRQUFRLGtCQUFSLENBQWpCOztBQUVBLElBQUlHLFNBQVMsc0JBQWMsRUFBZCxFQUFrQkQsVUFBbEIsQ0FBYjs7QUFFQUMsT0FBT0MsTUFBUCxHQUFnQjtBQUNkQyxRQUFNQyxZQUFZLHNCQURKO0FBRWRDLFlBQVUsZUFGSTtBQUdkQyxjQUFZO0FBSEUsQ0FBaEI7O0FBTUFMLE9BQU9NLE9BQVAsR0FBaUIsK0JBQWpCOztBQUVBTixPQUFPTyxPQUFQLEdBQWlCLENBQ2YsSUFBSVQsUUFBUVUsWUFBWixDQUF5QjtBQUN2QiwwQkFBd0IseUJBQWUsYUFBZjtBQURELENBQXpCLENBRGUsQ0FBakI7O0FBTUFDLE9BQU9DLE9BQVAsR0FBaUJWLE1BQWpCIiwiZmlsZSI6IndlYnBhY2suY29uZmlnLmRldmVsb3BtZW50LmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9tYWMvZGV2cy93b25kZXIvcGFja2FnZXMvY2xpZW50Iiwic291cmNlc0NvbnRlbnQiOlsidmFyIGZzICA9IHJlcXVpcmUoJ2ZzJyk7XG52YXIgd2VicGFjayA9IHJlcXVpcmUoJ3dlYnBhY2snKTtcblxudmFyIGJhc2VDb25maWcgPSByZXF1aXJlKCcuL3dlYnBhY2suY29uZmlnJyk7XG5cbnZhciBjb25maWcgPSBPYmplY3QuYXNzaWduKHt9LCBiYXNlQ29uZmlnKTtcblxuY29uZmlnLm91dHB1dCA9IHtcbiAgcGF0aDogX19kaXJuYW1lICsgJy9kaXN0L3dvbmRlci1jbGllbnQvJyxcbiAgZmlsZW5hbWU6ICd3b25kZXIuZGV2LmpzJyxcbiAgcHVibGljUGF0aDogJy9kaXN0L3dvbmRlci1jbGllbnQvJ1xufTtcblxuY29uZmlnLmRldnRvb2wgPSAnI2NoZWFwLW1vZHVsZS1ldmFsLXNvdXJjZS1tYXAnO1xuXG5jb25maWcucGx1Z2lucyA9IFtcbiAgbmV3IHdlYnBhY2suRGVmaW5lUGx1Z2luKHtcbiAgICAncHJvY2Vzcy5lbnYuTk9ERV9FTlYnOiBKU09OLnN0cmluZ2lmeSgnZGV2ZWxvcG1lbnQnKVxuICB9KSxcbl07XG5cbm1vZHVsZS5leHBvcnRzID0gY29uZmlnO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "webpack.config.development.js"
+      ],
+      "names": [
+        "fs",
+        "require",
+        "webpack",
+        "baseConfig",
+        "config",
+        "output",
+        "path",
+        "__dirname",
+        "filename",
+        "publicPath",
+        "devtool",
+        "plugins",
+        "DefinePlugin",
+        "module",
+        "exports"
+      ],
+      "mappings": ";;;;;;;;;;;;AAAA,IAAIA,KAAMC,QAAQ,IAAR,CAAV;AACA,IAAIC,UAAUD,QAAQ,SAAR,CAAd;;AAEA,IAAIE,aAAaF,QAAQ,kBAAR,CAAjB;;AAEA,IAAIG,SAAS,sBAAc,EAAd,EAAkBD,UAAlB,CAAb;;AAEAC,OAAOC,MAAP,GAAgB;AACdC,QAAMC,YAAY,sBADJ;AAEdC,YAAU,eAFI;AAGdC,cAAY;AAHE,CAAhB;;AAMAL,OAAOM,OAAP,GAAiB,+BAAjB;;AAEAN,OAAOO,OAAP,GAAiB,CACf,IAAIT,QAAQU,YAAZ,CAAyB;AACvB,0BAAwB,yBAAe,aAAf;AADD,CAAzB,CADe,CAAjB;;AAMAC,OAAOC,OAAP,GAAiBV,MAAjB",
+      "file": "webpack.config.development.js",
+      "sourceRoot": "/Users/mac/devs/wonder/packages/client",
+      "sourcesContent": [
+        "var fs  = require('fs');\nvar webpack = require('webpack');\n\nvar baseConfig = require('./webpack.config');\n\nvar config = Object.assign({}, baseConfig);\n\nconfig.output = {\n  path: __dirname + '/dist/wonder-client/',\n  filename: 'wonder.dev.js',\n  publicPath: '/dist/wonder-client/'\n};\n\nconfig.devtool = '#cheap-module-eval-source-map';\n\nconfig.plugins = [\n  new webpack.DefinePlugin({\n    'process.env.NODE_ENV': JSON.stringify('development')\n  }),\n];\n\nmodule.exports = config;\n"
+      ]
+    },
+    "mtime": 1642440543545
+  }
+}

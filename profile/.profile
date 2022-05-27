@@ -1,0 +1,5 @@
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+ export LANG="en_US.UTF-8"
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+  export CPPFLAGS="-I/usr/local/opt/ruby/include"
+export LC_ALL="en_US.UTF-8"
