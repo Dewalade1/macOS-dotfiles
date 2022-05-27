@@ -1,0 +1,91 @@
+{
+ "acceptedEulaVersions" : [
+  "1.4.4"
+ ],
+ "anonymousID" : "d4764cf4-5637-4209-909f-155a11c28687",
+ "autoExec" : true,
+ "autoExpand" : true,
+ "autocompletionMode" : 1,
+ "batchSize" : 50,
+ "cacheData" : {
+  
+ },
+ "checkForUpdates" : true,
+ "connections" : [
+  {
+   "connectionName" : "New Connection",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : false,
+     "manuallyVisibleDbs" : "",
+     "mechanism" : "SCRAM-SHA-1",
+     "useManuallyVisibleDbs" : false,
+     "userName" : "",
+     "userPasswordEncrypted" : ""
+    }
+   ],
+   "defaultDatabase" : "",
+   "isReplicaSet" : false,
+   "serverHost" : "localhost",
+   "serverPort" : 27017,
+   "ssh" : {
+    "askPassword" : false,
+    "enabled" : false,
+    "host" : "",
+    "method" : "publickey",
+    "passphraseEncrypted" : "",
+    "port" : 22,
+    "privateKeyFile" : "",
+    "publicKeyFile" : "",
+    "userName" : "",
+    "userPasswordEncrypted" : ""
+   },
+   "ssl" : {
+    "allowInvalidCertificates" : false,
+    "allowInvalidHostnames" : false,
+    "askPassphrase" : false,
+    "caFile" : "",
+    "crlFile" : "",
+    "pemKeyFile" : "",
+    "pemPassPhraseEncrypted" : "",
+    "sslEnabled" : false,
+    "useAdvancedOptions" : false,
+    "usePemFile" : false
+   },
+   "uuid" : "{745b6f73-bfad-4af4-b7e9-db1f50977129}"
+  }
+ ],
+ "dbVersionsConnected" : [
+  "4.0.27",
+  "4.4.11",
+  "5.0.6",
+  "4.4.10",
+  "4.4.12",
+  "4.2.17"
+ ],
+ "debugMode" : false,
+ "disableConnectionShortcuts" : false,
+ "disableHttpsFeatures" : false,
+ "imported" : false,
+ "lineNumbers" : false,
+ "loadMongoRcJs" : false,
+ "minimizeToTray" : false,
+ "mongoTimeoutSec" : 10,
+ "programExitedNormally" : true,
+ "shellTimeoutSec" : 15,
+ "style" : "Native",
+ "textFontFamily" : "",
+ "textFontPointSize" : -1,
+ "timeZone" : 0,
+ "toolbars" : {
+  "connect" : true,
+  "exec" : true,
+  "explorer" : true,
+  "logs" : false,
+  "open_save" : true
+ },
+ "uuidEncoding" : 0,
+ "version" : "2.0",
+ "viewMode" : 1
+}

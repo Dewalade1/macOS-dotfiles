@@ -1,0 +1,11 @@
+// MacOS Files
+*.nc
+*.DS_store
+*.DS_Store
+
+// Log files
+*logs*
+*.log
+
+// Caches
+*cache*
